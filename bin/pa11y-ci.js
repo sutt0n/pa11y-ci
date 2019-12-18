@@ -52,6 +52,7 @@ program
 		'permit this number of errors, warnings, or notices, otherwise fail with exit code 2',
 		'0'
 	)
+	.option('-V, --verbose', 'verbose pa11y logs')
 	.parse(process.argv);
 
 // Parse the args into valid paths using glob and protocolify
